@@ -1,0 +1,6 @@
+Django==1.4.3
+South==0.7.6
+argparse==1.2.1
+distribute==0.6.24
+wsgiref==0.1.2
+-e git+git@github.com:ssouk/django-money.git@fixing_south_migration_support#egg=django-money
