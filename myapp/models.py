@@ -6,4 +6,5 @@ from djmoney.models.fields import MoneyField
 class Bill(models.Model):
     name = models.CharField(max_length=100)
     price = MoneyField(max_digits=10, decimal_places=2, default_currency='GBP')
+    other_price = MoneyField(max_digits=10, decimal_places=2, default_currency='EUR')
     
