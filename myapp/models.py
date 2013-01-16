@@ -2,5 +2,5 @@ from django.db import models
 
 # Create your models here.
 
-class Bill(mode.Model):
+class Bill(models.Model):
     name = models.CharField(max_length=100)
